@@ -264,4 +264,11 @@ h1,h2,h3,.monogram,.paper-border strong{font-family:"Playfair Display",serif!imp
 .story-modal-close{position:absolute;top:8px;right:12px;border:0;background:transparent;color:var(--navy);font-size:30px;line-height:1;cursor:pointer}
 .story-modal-close:focus-visible{outline:2px solid var(--pink);outline-offset:4px}
 @media(max-width:700px){.story-modal{max-height:90vh}.story-modal-card{padding:46px 18px 20px}.story-modal-title{font-size:30px}.story-reading p{font-size:17px}}
+@media(max-width:700px){
+  .welcome-card h1,.hero h1{font-size:clamp(28px,10vw,52px);white-space:nowrap}
+  .paper-border strong{font-size:clamp(20px,7vw,34px);white-space:nowrap;width:100%}
+  .signature{font-size:clamp(24px,8vw,38px);white-space:nowrap}
+  footer h2{font-size:clamp(24px,8vw,38px);white-space:nowrap}
+  .countdown-section>h2,.details>h2,.schedule>h2,.entourage>h2,.gallery-heading h2,.dress>h2,.rsvp>h2{font-size:clamp(15px,4.8vw,28px);white-space:nowrap}
+}
 
