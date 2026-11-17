@@ -265,10 +265,10 @@ h1,h2,h3,.monogram,.paper-border strong{font-family:"Playfair Display",serif!imp
 .story-modal-close:focus-visible{outline:2px solid var(--pink);outline-offset:4px}
 @media(max-width:700px){.story-modal{max-height:90vh}.story-modal-card{padding:46px 18px 20px}.story-modal-title{font-size:30px}.story-reading p{font-size:17px}}
 @media(max-width:700px){
-  .welcome-card h1,.hero h1{font-size:clamp(28px,10vw,52px);white-space:nowrap}
-  .paper-border strong{font-size:clamp(20px,7vw,34px);white-space:nowrap;width:100%}
-  .signature{font-size:clamp(24px,8vw,38px);white-space:nowrap}
-  footer h2{font-size:clamp(24px,8vw,38px);white-space:nowrap}
-  .countdown-section>h2,.details>h2,.schedule>h2,.entourage>h2,.gallery-heading h2,.dress>h2,.rsvp>h2{font-size:clamp(15px,4.8vw,28px);white-space:nowrap}
+  .welcome-card h1,.hero h1{font-size:clamp(20px,7vw,46px)!important;white-space:nowrap}
+  .paper-border strong{font-size:clamp(18px,6vw,32px)!important;white-space:nowrap;width:100%}
+  .signature{font-size:clamp(20px,6.5vw,34px)!important;white-space:nowrap}
+  footer h2{font-size:clamp(20px,6.5vw,34px)!important;white-space:nowrap}
+  .countdown-section>h2,.details>h2,.schedule>h2,.entourage>h2,.gallery-heading h2,.dress>h2,.rsvp>h2{font-size:clamp(12px,3.8vw,22px)!important;letter-spacing:0;white-space:nowrap}
 }
 
